@@ -25,12 +25,8 @@ class Push {
         // Message goes here
         $msg = array(
                 'message' => array(
-                    'sender' => isset($data['callerPhone']) ? $data['callerPhone'] : NULL,
-                    'receiver' => $data['calledPHone'],
                     'name' => $data['name'],
                     'message' => $data['message'],
-                    'image' => $data['image_path'],
-                    'career' => $data['career'],
                     'location' => $data['location']
                  ) 
                );
@@ -49,6 +45,8 @@ class Push {
             'Authorization: key=' . $this->apikey,
             'Content-Type: application/json'
         );
+	
+	// Hiting GCM api via CURL..
 
         $ch = curl_init();
 
