@@ -3,7 +3,7 @@
 /**
  * This class sends the notifications through GCM
  *
- * @author Kalpit Pandit <kalpit@inkoniq.com>
+ * @author Kalpit Pandit <panditkalpit@gmail.com>
  */
 
 class Push {
