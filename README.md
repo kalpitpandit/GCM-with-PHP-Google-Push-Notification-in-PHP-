@@ -2,7 +2,7 @@
 This class you can use for Google Push Notification (GCM)
 
 
-== FAQ ==
+**Frequently Asked Questions**
 
 1. How to use this class?
 	Just copy and paste this class in your application. Create object of class and call a method called "sendGoogleCloudMessage" with the message array which you want to send to GCM.
